@@ -25,16 +25,16 @@ $_SESSION["altura_a"]= $_POST["altura"];
 		<form action="resp.php" method="post">
 
 			<label>Nome:</label>
-			<input type="text" name="nome_b" autocomplete="off" maxlength="30"><br><br>
+			<input type="text" name="nome_b" autocomplete="off" required maxlength="30"><br><br>
 
 			<label>Idade:</label>
-			<input type="text" name="idade_b" autocomplete="off" maxlength="30"><br><br>
+			<input type="number" name="idade_b" autocomplete="off" required maxlength="3"><br><br>
 			
 			<label>Peso:</label>
-			<input type="text" name="peso_b" autocomplete="off" maxlength="30"><br><br>
+			<input type="number" name="peso_b" autocomplete="off" required maxlength="3"><br><br>
 			
 			<label>Altura:</label>
-			<input type="text" name="altura_b" autocomplete="off" maxlength="30"><br><br>
+			<input type="number" name="altura_b" autocomplete="off" required maxlength="3"><br><br>
 
 			<input type="submit" name="enviar" value="Enviar">
 
